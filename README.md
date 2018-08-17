@@ -18,7 +18,7 @@ class Animal:
   def move_again(self):
       return f'My name is {self.name} and I am {self.age} years old. I am moving again'
 
-shabri = Person("Noah",19)
+shabri = Person("Shabri",19)
 print(shabri.move())
 print(shabri.move_again)
 ```
